@@ -1,0 +1,533 @@
+
+.img-scale-hover {
+    transform: scale(1.2);
+}
+
+img {
+    max-width: 100%;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: none;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: none !important;
+}
+
+/* SECTION INCLUDE STYLE TOGETHER */
+.page-section-author .article-about-author,
+.page-section-contact .contact-content {
+    margin-top: 50px;
+    padding: 0px 10% 0px 10%;
+}
+
+.page-section-portfolio .title-portfolio hr.hr-line, 
+.page-section-author .title-author hr.hr-line,
+.page-section-contact .title-contact hr.hr-line {
+    margin-top: 50px;
+    background: rgb(143, 143, 143);
+    height: 3px;
+    width: 30%;
+}
+
+.page-section-portfolio .title-portfolio h5.portfolio-header, 
+.page-section-author .title-author h5.author-header,
+.page-section-contact .title-contact h5.contact-header {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/* SECTION MENU */
+.page-header {
+    background: none;
+    border-bottom: 1px solid rgb(175, 168, 168);
+}
+
+.navbar .navbar-brand {
+    text-transform: uppercase;
+}
+
+.navbar .navbar-brand .nav-light {
+    color: white;
+}
+
+.navbar .navbar-brand .nav-dark {
+    color: black;
+}
+.navbar .navBarContainer {
+     text-align: center;
+ }
+ 
+ .navbar .navBarContainer ul li a:hover {
+    color: white;
+}
+
+/* SECTION SLIDER */
+
+.carousel-inner img, .container-skill-image img {
+    filter: brightness(50%);
+    transition-duration: 500ms;
+    transition-property: all;
+    background-size: 100%;
+    width: 100%;
+}
+
+.carousel-caption {
+    top: 15%;   
+}
+
+.carousel-caption h5, .container-skill-image .figure-caption h5 {
+    text-shadow: 2px 2px black, 3px 3px #333;
+    font-size: 20px;
+}
+
+.carousel-caption p, .container-skill-image .figure-caption p {
+    color:  white;
+    text-shadow: 2px 2px black, 2px 2px #333;
+    font-size: 15px;
+}
+
+.carousel-caption .caption-button {
+    background: none;
+    border: 1px solid white;
+    border-radius: 40px;
+    color: white;
+    text-shadow: 2px 2px black, 2px 2px #333;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 2%;
+ }
+
+ .carousel-caption .caption-button:hover {
+    background: white;
+    color: rgb(99, 90, 90);
+    filter: alpha(opacity = 0.7);
+    opacity: 0.7;
+ }
+
+ /* SECTION IMAGE ABOUT TECHNOLOGY */
+
+.row .match-my-cols {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.container-skill-image .col-md-6, .col-sm-12 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-skill-image {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.container-skill-image .figure-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    top: 30%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color:  white;
+    text-shadow: 2px 2px black, 2px 2px #333;
+    font-size: 15px;
+}
+
+.container-skill-image .figure-img {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-skill-image .figure-caption h5 {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.container-skill-image .figure-caption p {
+    font-size: 10px;
+}
+
+/* SECTION ABOUT SKILL */
+
+.page-section-skill {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.page-section-skill .skill-icon {
+    margin-bottom: 40px;
+}
+
+.page-section-skill .skill-icon img {
+    width: 100px;
+}
+
+.page-section-skill .skill-icon .figure-caption {
+    margin-top: 30px;
+    color: black;
+    font-size: 15px;
+}
+
+.page-section-skill .skill-icon .figure-caption .progress {
+    background: rgb(143, 143, 143);
+}
+
+.page-section-skill .skill-icon .figure-caption p {
+    margin-top: 5px;
+}
+
+/* SECTION ABOUT PORTFOLIO */
+
+.page-section-portfolio {
+    padding-bottom: 50px;
+}
+
+.page-section-portfolio .title-portfolio {
+    width: 100%;
+}
+
+.page-section-portfolio .portfolio {
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.page-section-portfolio .portfolio .figure .img-fluid {
+    width: 400px;
+    filter: brightness(70%);
+    border: 1px solid white;
+}
+
+.page-section-portfolio .portfolio .figure .img-fluid:hover {
+    border: 1px solid lightblue;
+    filter: brightness(50%);
+}
+
+.page-section-portfolio .portfolio .figure-caption {
+    color: white;
+    padding-bottom: 20px;
+}
+
+/* PAGE SECTION ABOUT AUTHOR */
+
+.page-section-author {
+    margin-bottom: 50px;
+}
+
+.page-section-author .col-md-6 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.page-section-author .title-author h5.author-header {
+    color: black;
+}
+
+.page-section-author .author-icon {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.page-section-author .author-icon img {
+    width: 100px;
+    border: 1px solid #b6b6b6!important;
+    padding: 2px;
+}
+
+.page-section-author .article-about-author .text-about-author {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.page-section-author .article-about-author .text-about-author:before, 
+.page-section-author .article-about-author .text-about-author:after, 
+.page-section-author .article-about-author .text-about-author>:last-child:before, 
+.page-section-author .article-about-author .text-about-author>:last-child:after {
+    position: absolute;
+    width: 20px; 
+    height: 20px;
+    border-color:black; 
+    border-style: solid;
+    content: ' ';
+}
+ 
+.page-section-author .article-about-author .text-about-author:before {
+    top: 10px;
+    left: 10px;
+    border-width: 1px 0 0 1px
+}
+ 
+.page-section-author .article-about-author .text-about-author:after {
+    top: 10px;
+    right: 10px;
+    border-width: 1px 1px 0 0
+}
+ 
+.page-section-author .article-about-author .text-about-author>:last-child:before {
+    bottom: 10px;
+    right: 10px;     
+    border-width: 0 1px 1px 0
+}
+ 
+.page-section-author .article-about-author .text-about-author>:last-child:after {
+    bottom: 10px;
+    left: 10px;
+    border-width: 0 0 1px 1px
+}
+
+
+.page-section-author .article-about-author .text-about-author .article-title h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(80, 76, 76);
+}
+
+.page-section-author .article-about-author .text-about-author .article-content {
+    text-align: center;
+    font-size: 10px;
+}
+
+.page-section-author .article-about-author .text-about-author .article-content p {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.page-section-author .article-about-author .text-about-author .article-content p span {
+    display: block;
+    font-weight: bold;
+}
+
+/* PAGE SECITON CONTACT */
+.page-section-contact {
+    padding: 30px;
+    justify-content: center;
+}
+
+.page-section-contact .contact-content {
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    padding-bottom: 40px;
+}
+
+.page-section-contact .contact-icon {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.page-section-contact .contact-icon img {
+    filter: grayscale(100%);
+    transition-duration: 1000ms;
+    transition-property: all;
+    border: 1px solid black;
+}
+
+.page-section-contact .contact-icon img:hover {
+    filter: grayscale(0%);
+}
+
+.page-section-contact .contact-content .contact-form {
+    border: 1px solid rgb(143, 143, 143);
+    padding: 20px;
+    width: 100%;
+}
+
+.page-section-contact .contact-content .contact-form form label {
+    color: white;
+}
+
+.page-section-contact .contact-content .contact-form form button {
+    width: 100%;
+}
+
+/* SECTION FOOTER */
+
+.page-footer {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.page-footer .container-fluid {
+    margin-top: 30px;
+}
+
+.page-footer .container-fluid .footer-row {
+    display: flex;
+    align-items: center;
+}
+
+.page-footer .footer-logo {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.page-footer .footer-navbar {
+    border-top: 2px solid rgb(143, 143, 143);
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.page-footer .footer-copyright {
+    margin-top: 30px;
+    font-size: 10px;
+    color: rgb(143, 143, 143);
+}
+
+/* MEDIA SCALE */
+
+ /* SMALL TELEPHONE */
+
+@media (max-width: 321px) {
+    .carousel-caption .caption-button {
+        font-size: 6px;
+        margin-top: 2%;
+     }
+ }
+
+
+/* TABLET */
+
+@media (min-width: 576px ) AND (max-width: 767px) {
+    .navbar .navBarContainer {
+        display: flex;
+        flex-direction: row-reverse;
+        font-size: 14px;
+    }
+    
+    .carousel-caption {
+        top: 25%;
+    }
+    .carousel-caption h5 {
+        font-size: 35px;
+    }
+
+    .carousel-caption p {
+        font-size: 30px;
+    }
+
+    .carousel-caption .caption-button {
+        font-size: 25px;
+        margin-top: 3%;
+     }
+
+     .container-skill-image .figure-caption {
+         top: 40%;
+     }
+
+     .container-skill-image .figure-caption h5,
+     .page-section-portfolio .title-portfolio h5.portfolio-header, .page-section-author .title-author h5.author-header,
+     .page-section-author .article-about-author .text-about-author .article-title h5,
+     .page-section-contact .title-contact h5.contact-header
+     {
+         font-size: 25px;
+     }
+
+     .container-skill-image .figure-caption p {
+         font-size: 20px;
+     }
+
+     .page-section-skill .skill-icon img {
+        width: 100px;
+    }
+    
+    .page-section-skill .skill-icon .figure-caption {
+        font-size: 15px;
+    }
+
+    .page-section-author .article-about-author .text-about-author .article-content {
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+/* COMPUTER */
+
+@media (min-width: 768px) {
+    .navBarContainer {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+   
+    .carousel-caption {
+        top: 25%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 45px;
+    }
+    
+    .carousel-caption p {
+        font-size: 40px;
+    }
+
+    .carousel-caption .caption-button {
+        font-size: 35px;
+        margin-top: 4%;
+        padding: 10px;
+     }
+
+     .container-skill-image .figure-caption {
+         top: 35%;
+     }
+
+     .container-skill-image .figure-caption h5 {
+         font-size: 40px;
+     }
+
+     .container-skill-image .figure-caption p,
+     .page-section-skill .skill-icon .figure-caption
+     {
+         font-size: 20px;
+     }
+
+     .page-section-skill .skill-icon img {
+        width: 150px;
+    }
+
+    .page-section-portfolio .title-portfolio h5.portfolio-header, 
+    .page-section-author .title-author h5.author-header,
+    .page-section-contact .title-contact h5.contact-header
+    {
+        font-size: 30px;
+    }
+
+    .page-section-author .article-about-author .text-about-author .article-title h5 {
+        font-size: 35px;
+    }
+
+    .page-section-author .article-about-author .text-about-author .article-content {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .page-footer .footer-navbar {
+        border-top: 0;
+        border-left: 2px solid rgb(143, 143, 143);
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+}
+
+/* SMALL COMPUTER SCREEN */
+@media(min-width: 767px) AND (max-width: 1040px) {
+    .container-skill-image .figure-caption {
+        top: 25%;
+    }
+}
